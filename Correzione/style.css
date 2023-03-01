@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Reboto', sans-serif;
+}
+
+body{
+    background-color: grey;
+
+}
+
+header{
+    margin-bottom: 5rem;
+    background-color: white;
+    padding: .5rem 1rem;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+}
+
+main{
+    margin: 4rem auto;
+    max-width: 550px;
+    max-height: 650px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btns{
+    padding: 1.5rem 3rem .5rem;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-section{
+    padding: 1.5rem 3rem 1rem;
+}
+
+.arrow{
+    vertical-align: 2px;
+    font-size: 1rem;
+}
+
+.icon-status{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10em;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1em;
+} 
+
+.status-tick{
+    color: green;
+    border-color: green;
+}
+
+.status-x{
+    color: red;
+    border-color: red;
+}
+
+.write{
+    vertical-align: -.1em;
+}
+
+.tag{
+    display: inline-block;
+    padding: .3rem .5rem;
+    border-radius: .7em;
+    color: white;
+}
+
+.tag-green{
+    background-color: green;
+}
